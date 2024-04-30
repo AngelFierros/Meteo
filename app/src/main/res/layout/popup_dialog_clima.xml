@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/climate_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/text_tempet"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/climate_image"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:textSize="24sp"
+        android:layout_marginTop="0dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text_elevation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/elevation_text"
+        android:textSize="24sp"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:id="@+id/text_elevation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="---"
+        android:textSize="24sp"
+        android:layout_marginTop="200dp"
+        />
+
+    <TextView
+        android:id="@+id/text_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_elevation"
+        android:layout_marginTop="18dp"
+        android:text="@string/wind_text"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/text_wind_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_elevation"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="200dp"
+        android:text="---"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/text_winddirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_wind"
+        android:layout_marginTop="18dp"
+        android:text="@string/winddirection_text"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/text_winddirection_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_wind"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="200dp"
+        android:text="---"
+        android:textSize="24sp"/>
+
+
+    <Button
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_winddirection"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/close_text" />
+
+
+
+</RelativeLayout>

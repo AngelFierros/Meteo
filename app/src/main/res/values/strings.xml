@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meteo</string>
+    <string name="temperature_text">Tempeture: </string>
+    <string name="wind_text">Wind speed: </string>
+    <string name="elevation_text">Elevation: </string>
+    <string name="winddirection_text">Wind direction: </string>
+    <string name="close_text">Close</string>
+
+</resources>
